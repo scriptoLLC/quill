@@ -47,7 +47,7 @@ class CodeBlock extends Block {
       return;
     }
     let nextNewline = this.newlineIndex(index);
-    if (nextNewline < 0 || nextNewline >= index + length) return;
+    // if (nextNewline < 0 || nextNewline >= index + length) return;
     let prevNewline = this.newlineIndex(index, true) + 1;
     let isolateLength = nextNewline - prevNewline + 1;
     let blot = this.isolate(prevNewline, isolateLength);
