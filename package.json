@@ -1,6 +1,6 @@
 {
-  "name": "quill",
-  "version": "1.2.6",
+  "name": "@scriptollc/quill",
+  "version": "1.2.5",
   "description": "Your powerful, rich text editor",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "http://quilljs.com",
